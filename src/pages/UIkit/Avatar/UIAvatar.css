@@ -1,0 +1,4 @@
+.UIAvatar img {
+    clip-path: circle();
+    object-fit: cover
+}

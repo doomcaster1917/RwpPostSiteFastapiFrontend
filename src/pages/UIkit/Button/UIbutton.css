@@ -1,0 +1,11 @@
+.UIbutton {
+    /*min-width: 43%;*/
+    /*min-height: 100%;*/
+    border-radius: 20px;
+    border: none;
+    font-family: 'Helvetica-black';
+    color: white;
+    background: #FF0000;
+    cursor: pointer;
+    /*margin: 1vw;*/
+}

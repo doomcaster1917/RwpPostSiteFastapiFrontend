@@ -1,0 +1,89 @@
+.Comment {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 95%;
+    min-height: 110px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content-content: space-around;
+    align-items: center;
+}
+
+.Comment p{
+    font-size: 1vw;
+    line-height: 15px;
+}
+
+#userPart{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content-content: space-around;
+    align-items: center;
+}
+
+.Comment #comment_text {
+    width: 100%;
+    min-height: 100px;
+    border-radius: 25px;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+    margin-left: 15px;
+    text-indent: 15px;
+    background: #FFE1E1;
+    z-index: 2;
+}
+
+#editButton{
+    position: absolute;
+    background: url("../../../static/media/ellipsis.png") no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+    width: 2.5vw;
+    height: 1vh;
+    z-index: 7;
+    left: 66vw;
+    margin-bottom: 10vh;
+}
+
+.appearingButton{
+    display: none;
+}
+
+.CommentContainer{
+    width: 102%;
+}
+
+#editButton:hover{
+    #appearingList{
+        opacity: 100;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 12vw;
+        height: 8.5vh;
+        border-radius: 1vh;
+        cursor: default;
+        background: rgb(0, 0, 0, 0.5);
+        z-index: 9;
+    }
+    .appearingButton{
+        display: block;
+        width: 10vw;
+        height: 2.5vh;
+        background: whitesmoke;
+        border-radius: 5px;
+        font-size: 1.5vh;
+        cursor: pointer;
+    }
+}
+
+
+

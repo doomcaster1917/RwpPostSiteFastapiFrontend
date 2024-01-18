@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*align-content: center;*/
+    /*justify-content: center;*/
+}
+
+div {
+    display: inline;
+}
+
+@font-face {
+    font-family: 'Monserrat';
+    src: url("../static/fonts/Monserrat/Montserrat-VariableFont_wght.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monserrat-Bold';
+    src: url("../static/fonts/Monserrat/static/Montserrat-Bold.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monserrat-Medium';
+    src: url("../static/fonts/Monserrat/static/Montserrat-Medium.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica-black';
+    src: url("../static/fonts/Helvetica-cyr/helveticaneuecyr_black.otf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica-roman';
+    src: url("../static/fonts/Helvetica-cyr/helveticaneuecyr_roman.otf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gagalin';
+    src: url("../static/fonts/Gagalin-Regular.otf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

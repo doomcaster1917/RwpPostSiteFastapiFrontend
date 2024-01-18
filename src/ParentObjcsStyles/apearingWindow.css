@@ -1,0 +1,30 @@
+.apearingWindow {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    left: 35%;
+    top: 40%;
+    background: #FFBABA;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-duration: 5s;
+    animation-name: slidein;
+    opacity: 0;
+    z-index: 10;
+}
+
+@keyframes slidein {
+    0% {
+        opacity: 0%;
+    }
+
+    50% {
+
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}

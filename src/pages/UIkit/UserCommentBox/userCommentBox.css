@@ -1,0 +1,65 @@
+.UserCommentBox {
+    width: 28%;
+    padding-left: 1.7vw;
+    height: 181px;
+    background-color: #910101;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.UserCommentBox #articleName {
+    width: 43%;
+    height: 49%;
+    background: #FFBABA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+}
+
+.UserCommentBox #commentText {
+    width: 43%;
+    height: 49%;
+    background: #FFBABA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    text-align: center;
+    text-align: center;
+}
+
+.UserCommentBox #edit {
+    width: 29%;
+    height: 20%;
+    background: #FF0000;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px
+}
+
+.UserCommentBox #delete {
+    width: 29%;
+    height: 20%;
+    background: #FF0000;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#delete:hover {
+    background: #E77D7D;
+    cursor: pointer;
+}
+
+

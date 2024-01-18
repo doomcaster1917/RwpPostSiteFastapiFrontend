@@ -1,0 +1,22 @@
+.MainModal{
+    position:fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background: rgb(0, 0, 0, 0.5);
+    z-index:4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.MainModalContent{
+    padding: 25px;
+    background: white;
+    border-radius: 16px;
+    min-width: 300px;
+    min-height: 70vh;
+}

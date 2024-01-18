@@ -1,0 +1,39 @@
+form{
+    display: flex;
+}
+
+.authForm {
+    position: relative;
+    left: 30vw;
+    top: 20vh;
+    width: 35vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.authForm input{
+    min-width: 83%;
+    min-height: 10%;
+    border-radius: 20px;
+    border: none;
+}
+
+.authForm #regH{
+    color: white;
+    font-family:'Helvetica-black';
+    font-size: 43px;
+}
+
+.authForm #buttons{
+    width: 34vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+

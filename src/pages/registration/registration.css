@@ -1,0 +1,36 @@
+
+.regForm {
+    position: relative;
+    left: 35vw;
+    top: 20vh;
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.regForm input {
+    min-width: 60%;
+    min-height: 7%;
+    border-radius: 20px;
+    border: none;
+}
+
+.regForm #regH {
+    color: white;
+    font-family: 'Helvetica-black';
+    font-size: 43px;
+}
+
+.regForm button {
+    min-width: 23%;
+    min-height: 10%;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Helvetica-black';
+    color: white;
+    background: #FF0000;
+    cursor: pointer;
+}

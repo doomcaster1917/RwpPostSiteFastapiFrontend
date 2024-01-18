@@ -1,0 +1,174 @@
+body{
+    height: 100vh;
+}
+
+.AdminPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.leftWrappper {
+    width: 39vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.avatarWrapper {
+    position: relative;
+    height: 50vh;
+    width: 37vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.avatar {
+    position: relative;
+    max-width: 80%;
+    max-height: 80%;
+    min-width: 70%;
+    min-height: 70%;
+    clip-path: circle();
+    /*object-fit: cover;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    object-fit: cover;
+}
+
+
+.leftWrappper .avatarWrapper #addAvatar {
+    position: relative;
+    background: url('../../static/media/change_avatar_pic.png');
+    background-size: cover;
+    width: 35%;
+    height: 35%;
+    right: 67%;
+    z-index: 4;
+}
+
+.leftWrappper .avatarWrapper #addAvatar input{
+    cursor: pointer;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.rightWrapper {
+    width: 59vw;
+    height: 85vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.rightWrapper .info {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.AdminPage .rightWrapper #info input{
+    height: 30%;
+    width: 30%;
+    border-radius: 15px;
+    text-indent: 2px
+}
+
+.info #nameField {
+    position: relative;
+    width: 30%;
+    height: 30%;
+    background: #F74E51;
+    opacity: 85%;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Helvetica-black';
+    color: white;
+}
+
+.News{
+    width: 100%;
+    height: 90%;
+
+}
+
+.AddNews{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.AddNews textarea {
+    width: 90%;
+    height: 55%;
+    text-indent: 10px;
+
+}
+
+.AddNews input {
+    width: 90%;
+    height: 16%;
+    border-radius: 15px;
+    text-indent: 10px;
+}
+
+.AddNews #addPic {
+    width: 13%;
+    height: 15%;
+    background: url("../../static/media/add_image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.AddNews #addPic input {
+    opacity: 0;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.AddNews #infoBlock{
+    width: 20%;
+    height: 15%;
+    background: #F74E51;
+    opacity: 85%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}

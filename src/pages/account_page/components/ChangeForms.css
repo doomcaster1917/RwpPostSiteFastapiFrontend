@@ -1,0 +1,13 @@
+.EditForm{
+    width: 23vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.EditForm input{
+    width: 85%;
+    height: 20%;
+}

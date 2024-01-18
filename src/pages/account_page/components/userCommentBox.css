@@ -1,0 +1,80 @@
+.UserCommentBox {
+    width: 28%;
+    height: 181px;
+    background-color: #910101;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.UserCommentBox #articleName {
+    width: 43%;
+    height: 49%;
+    background: #FFBABA;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.UserCommentBox #commentText {
+    width: 43%;
+    height: 49%;
+    background: #FFBABA;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.UserCommentBox #edit {
+    width: 29%;
+    height: 20%;
+    background: #FF0000;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.UserCommentBox #delete {
+    width: 29%;
+    height: 20%;
+    background: #FF0000;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.UserCommentBox #toArticle {
+    width: 29%;
+    height: 20%;
+    background: #FF0000;
+    border-radius: 15px;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.UserCommentBox #edit:hover {
+    background: #E77D7D;
+}
+
+#delete:hover {
+    background: #E77D7D;
+}
+
+#toArticle:hover {
+    background: #E77D7D;
+}
+

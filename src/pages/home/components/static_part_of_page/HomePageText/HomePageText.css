@@ -1,0 +1,18 @@
+.pWrapper {
+    position: absolute;
+    top: 103%;
+    width: 80vw;
+    left: 10vw;
+    background: #EA1010;
+}
+
+.pWrapper p {
+    padding-left: 8%;
+    width: 83%;
+    left: 16%;
+    text-indent: 25px;
+    color: white;
+    font-family: 'Monserrat';
+    font-size: 25px;
+    line-height: 37px;
+}

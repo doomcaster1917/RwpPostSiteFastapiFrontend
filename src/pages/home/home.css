@@ -1,0 +1,35 @@
+body {
+    background: #CD0303;
+    box-sizing: border-box;
+}
+
+.home_page h1 {
+    padding-bottom: 5%;
+    padding-left: 2vw;
+    color: white;
+    font-family: 'Helvetica-black';
+    font-size: 53px;
+    margin-top: 17px;
+    text-align: center;
+}
+
+.home_page p {
+    padding-left: 8%;
+    width: 83%;
+    left: 16%;
+    text-indent: 25px;
+    color: white;
+    font-family: 'Monserrat';
+    font-size: 25px;
+    line-height: 37px;
+}
+
+.home_page h2{
+    color: white;
+    width: 90%;
+    text-align: center;
+    font-family: 'Helvetica-black';
+    font-size: 43px;
+}
+
+

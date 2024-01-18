@@ -1,0 +1,30 @@
+.UserPageFromAdmin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.UserPageFromAdmin #infowrapper {
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.UserPageFromAdmin #infowrapper {
+    font-family: Helvetica-black;
+    font-size: 2vw;
+}
+
+.UserPageFromAdmin #commentsArea {
+    width: 99vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    padding-top: 4vh;
+}

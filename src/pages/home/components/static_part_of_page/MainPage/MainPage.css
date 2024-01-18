@@ -1,0 +1,133 @@
+.mainPage{
+  position: absolute;
+  height: 73vh;
+  width: 99vw;
+  bottom: 19.5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ClaimContainerLeft{
+  height: 99%;
+  width: 25%;
+}
+
+.ClaimText {
+  width: 23vw;
+  height: 65vh;
+  left: 2vw;
+  bottom: 2px;
+  position: absolute;
+  color: white;
+  font-family: 'Helvetica-black';
+  font-size: 4.7vw;
+  line-height: 9vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.TextBox {
+  position: relative;
+  color: white;
+  text-align: right;
+  font-family: 'Monserrat';
+  font-size: 105%;
+  width: 70%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.imagesContainerRight{
+  position: relative;
+  height: 99%;
+  width: 75%;
+  display: grid;
+
+  grid-template-areas:
+    "A C C C C C"
+    "B C C C C C"
+    "B C C C C C"
+    "D C C C C C";
+  grid-template-rows: 27vh auto 27vh;
+
+}
+
+#bigPic {
+  height: 63vh;
+  width: 47vw;
+  margin: 0;
+  padding: 0;
+  grid-area: C;
+  align-self : center;
+  clip-path: circle();
+  object-fit: cover;
+  z-index: 0;
+}
+
+.SmallImage{
+  height: 14vw;
+  width: 14vw;
+}
+
+.message{
+  position:relative;
+  width: 135%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  right: 19vw;
+  z-index: 1;
+
+}
+
+#lower-message, #top-message{
+  left: 45%
+}
+
+#top-message{
+  grid-area: A;
+}
+
+#middle-message{
+  position: relative;
+  grid-area: B;
+  align-self : start;
+  right:7%;
+}
+
+
+#middleText {
+  width: 45%;
+  text-align: right;
+}
+
+@media screen and (width > 1600px){
+  .SmallImage{
+    height: 11vw;
+    width: 11vw;
+  }
+  .TextBox {
+    position: relative;
+    color: white;
+    text-align: right;
+    font-family: 'Monserrat';
+    font-size: 145%;
+    width: 70%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+}
+
